@@ -8,7 +8,7 @@ const app = express();
 
 const PORT = 5000;
 app.use(cors({
-    origin: ["https://65e6d8fa8f1f1c6fa08d8637--benevolent-capybara-1b19cc.netlify.app", "http://localhost:3000", "https://benevolent-capybara-1b19cc.netlify.app"],
+    origin: ["https://65e6d8fa8f1f1c6fa08d8637--benevolent-capybara-1b19cc.netlify.app", "http://localhost:3000", "https://benevolent-capybara-1b19cc.netlify.app", "https://deluxe-eclair-179305.netlify.app"],
     credentials: true
 }));
 
@@ -21,9 +21,7 @@ app.use(session({
     saveUninitialized: true,
     cookie: {
         maxAge: 60000,
-      
-     
-      
+    
     }
 }));
 
