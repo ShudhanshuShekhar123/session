@@ -22,9 +22,9 @@ app.use(session({
 
 
     cookie: {
-        maxAge: 60000,
-        sameSite:"lax"
-        
+        maxAge: 10000,
+       
+
         
     
     }
